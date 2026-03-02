@@ -1,20 +1,110 @@
-name: GitHub Readme YouTube Cards
+name: Random YouTube Music Picks
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # every 6 hours
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
     steps:
-      - uses: DenverCoder1/github-readme-youtube-cards@main
-        with:
-          playlist_id: PLRyxdVz0C5Yr5hVOeSs203HDNoMB56Zwu
-          max_videos: 4
-          theme: dark
-          output_type: markdown
+      - uses: actions/checkout@v4
+
+      - name: Update README (random 6, 3 per row)
+        env:
+          YOUTUBE_API_KEY: ${{ Secrets.AIzaSyDI_sVP1Z33EjbHdaGlfyWh_5acg1Z1NqY }}
+          PLAYLIST_ID: PLRyxdVz0C5Yr5hVOeSs203HDNoMB56Zwu
+          PICK_COUNT: "6"
+          PER_ROW: "3"
+          THUMB_WIDTH: "280"
+        run: |
+          python - << 'PY'
+          import os, json, random, urllib.request, urllib.parse, re, html
+
+          api_key = os.environ["YOUTUBE_API_KEY"]
+          playlist_id = os.environ["PLAYLIST_ID"]
+          pick_count = int(os.environ.get("PICK_COUNT", "6"))
+          per_row = int(os.environ.get("PER_ROW", "3"))
+          thumb_width = os.environ.get("THUMB_WIDTH", "280")
+
+          def fetch(pid, key, limit=200):
+            items = []
+            token = None
+            while True:
+              qs = {"part":"snippet","playlistId":pid,"maxResults":"50","key":key}
+              if token: qs["pageToken"] = token
+              url = "https://www.googleapis.com/youtube/v3/playlistItems?" + urllib.parse.urlencode(qs)
+              with urllib.request.urlopen(url) as r:
+                data = json.load(r)
+              for it in data.get("items", []):
+                sn = it.get("snippet", {})
+                title = sn.get("title", "")
+                vid = (sn.get("resourceId") or {}).get("videoId")
+                if not vid: 
+                  continue
+                if title in ("Private video", "Deleted video"):
+                  continue
+                items.append((title, vid))
+              token = data.get("nextPageToken")
+              if not token or len(items) >= limit:
+                break
+            return items[:limit]
+
+          items = fetch(playlist_id, api_key, 200)
+          if not items:
+            raise SystemExit("No playlist items fetched. Check API key / playlist id.")
+
+          picks = random.sample(items, k=min(pick_count, len(items)))
+
+          def cell(title, vid):
+            title_esc = html.escape(title)
+            thumb = f"https://img.youtube.com/vi/{vid}/hqdefault.jpg"
+            link = f"https://www.youtube.com/watch?v={vid}&list={playlist_id}"
+            return f'''<a href="{link}">
+            <img src="{thumb}" alt="{title_esc}" width="{thumb_width}" />
+          </a><br/><sub>{title_esc}</sub>'''
+
+                    cells = [cell(t, v) for t, v in picks]
+                    rows = [cells[i:i+per_row] for i in range(0, len(cells), per_row)]
+
+          # Borderless HTML table (GitHub strips CSS, but border attribute works)
+          out = ['<table border="0" cellspacing="0" cellpadding="0">']
+          for r in rows:
+            out.append("<tr>")
+            for c in r:
+              out.append(f'<td align="center" valign="top">{c}</td>')
+            if len(r) < per_row:
+              for _ in range(per_row - len(r)):
+                out.append('<td></td>')
+            out.append("</tr>")
+          out.append("</table>")
+          block = "\n".join(out)
+
+          start = "<!-- BEGIN YTM-RANDOM -->"
+          end = "<!-- END YTM-RANDOM -->"
+          readme_path = "README.md"
+          with open(readme_path, "r", encoding="utf-8") as f:
+            readme = f.read()
+
+          pattern = re.compile(re.escape(start) + r".*?" + re.escape(end), re.S)
+          replacement = start + "\n" + block + "\n" + end
+          if pattern.search(readme):
+            readme = pattern.sub(replacement, readme)
+          else:
+            readme += "\n\n" + replacement + "\n"
+
+          with open(readme_path, "w", encoding="utf-8") as f:
+            f.write(readme)
+          PY
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "docs(readme): update random music picks" || exit 0
+          git push
