@@ -16,7 +16,7 @@ jobs:
 
       - name: Update README (random 6, 3 per row)
         env:
-          YOUTUBE_API_KEY: ${{ Secrets.AIzaSyDI_sVP1Z33EjbHdaGlfyWh_5acg1Z1NqY }}
+          YOUTUBE_API_KEY: ${{ Secrets.AIzaSyCKHKSUUpkdewf0zaLzW05wilK5AjISpn0 }}
           PLAYLIST_ID: PLRyxdVz0C5Yr5hVOeSs203HDNoMB56Zwu
           PICK_COUNT: "6"
           PER_ROW: "3"
