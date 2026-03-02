@@ -55,12 +55,28 @@ I graduated from Dong-Eui University, and I'm set to join a smart factory compan
 </table>
 
 ## Hobbies
-### Solved.ac
-| Stats | Grass |
-|:--:|:--:|
-| [![Solved.ac stats](https://github-readme-solvedac.hyp3rflow.vercel.app/api/?handle=wjdduswns02&theme=dark)](https://solved.ac/profile/wjdduswns02) | [![Solved.ac grass](http://mazandi.herokuapp.com/api?handle=wjdduswns02&theme=dark)](https://solved.ac/profile/wjdduswns02) |
+### Solved.ac 📚
+<div align="center">
+  <a href="https://solved.ac/profile/wjdduswns02">
+    <img
+      src="https://github-readme-solvedac.hyp3rflow.vercel.app/api/?handle=wjdduswns02&theme=dark"
+      alt="Solved.ac stats"
+      width="420"
+    />
+  </a>
+  <a href="https://solved.ac/profile/wjdduswns02">
+    <img
+      src="http://mazandi.herokuapp.com/api?handle=wjdduswns02&theme=dark"
+      alt="Solved.ac grass"
+      width="190"
+    />
+  </a>
+</div>
+
+### Music 🎧  
+<!-- BEGIN YOUTUBE-CARDS -->
+<!-- END YOUTUBE-CARDS -->
 
 
 
-- 🎧 Listening to music (collecting focus playlists)
 - 📚 Writing dev notes (troubleshooting & learnings) on blog/Notion
