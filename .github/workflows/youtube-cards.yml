@@ -1,0 +1,20 @@
+name: GitHub Readme YouTube Cards
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # every 6 hours
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: DenverCoder1/github-readme-youtube-cards@main
+        with:
+          playlist_id: PLRyxdVz0C5Yr5hVOeSs203HDNoMB56Zwu
+          max_videos: 4
+          theme: dark
+          output_type: markdown
