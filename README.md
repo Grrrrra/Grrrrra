@@ -75,13 +75,16 @@ I graduated from Dong-Eui University, and I'm set to join a smart factory compan
 
 ### Music 🎧
 <!-- BEGIN YOUTUBE-CARDS -->
-[![If It's the Same](https://ytcards.demolab.com/?id=2W7s-1P0gY0&title=If+It%27s+the+Same&lang=en&timestamp=1738335603&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "If It's the Same")](https://www.youtube.com/watch?v=2W7s-1P0gY0)
-[![Alright](https://ytcards.demolab.com/?id=67vr-3kpX3Q&title=Alright&lang=en&timestamp=1544615639&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "Alright")](https://www.youtube.com/watch?v=67vr-3kpX3Q)
-[![Avid](https://ytcards.demolab.com/?id=0s93gfmrD9I&title=Avid&lang=en&timestamp=1673949869&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "Avid")](https://www.youtube.com/watch?v=0s93gfmrD9I)
-[![This Love (G-Dragon Solo)](https://ytcards.demolab.com/?id=CVhsLqp-Yts&title=This+Love+%28G-Dragon+Solo%29&lang=en&timestamp=1576088515&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "This Love (G-Dragon Solo)")](https://www.youtube.com/watch?v=CVhsLqp-Yts)
-[![Yin and Yang (FANXY CHILD Ver.)(Feat. DEAN, PENOMECO)](https://ytcards.demolab.com/?id=dbBwv38Ycaw&title=Yin+and+Yang+%28FANXY+CHILD+Ver.%29%28Feat.+DEAN%2C+PENOMECO%29&lang=en&timestamp=0&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5)](https://music.youtube.com/watch?v=dbBwv38Ycaw&si=Mgj5Ri8WyUnbAMEY)
-[![No Gradation](https://ytcards.demolab.com/?id=8XtJhe7TndI&title=YouTube+Music&lang=en&timestamp=0&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5)](https://music.youtube.com/watch?v=8XtJhe7TndI&si=8UQtgUK75d6RvU-A)
+[![If It's the Same](https://ytcards.demolab.com/?id=2W7s-1P0gY0&title=If+It%27s+the+Same&lang=en&timestamp=1738335603&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=220&border_radius=5)](https://www.youtube.com/watch?v=2W7s-1P0gY0)
+[![Alright](https://ytcards.demolab.com/?id=67vr-3kpX3Q&title=Alright&lang=en&timestamp=1544615639&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=220&border_radius=5)](https://www.youtube.com/watch?v=67vr-3kpX3Q)
+[![Avid](https://ytcards.demolab.com/?id=0s93gfmrD9I&title=Avid&lang=en&timestamp=1673949869&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=220&border_radius=5)](https://www.youtube.com/watch?v=0s93gfmrD9I)
+[![This Love (G-Dragon Solo)](https://ytcards.demolab.com/?id=CVhsLqp-Yts&title=This+Love+%28G-Dragon+Solo%29&lang=en&timestamp=1576088515&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=220&border_radius=5)](https://www.youtube.com/watch?v=CVhsLqp-Yts)
+[![Yin and Yang (FANXY CHILD Ver.)(Feat. DEAN, PENOMECO)](https://ytcards.demolab.com/?id=dbBwv38Ycaw&title=Yin+and+Yang+%28FANXY+CHILD+Ver.%29%28Feat.+DEAN%2C+PENOMECO%29&lang=en&timestamp=0&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=220&border_radius=5)](https://music.youtube.com/watch?v=dbBwv38Ycaw&si=Mgj5Ri8WyUnbAMEY)
+[![No Gradation](https://ytcards.demolab.com/?id=8XtJhe7TndI&title=YouTube+Music&lang=en&timestamp=0&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=220&border_radius=5)](https://music.youtube.com/watch?v=8XtJhe7TndI&si=8UQtgUK75d6RvU-A)
+[![悪魔の子](https://ytcards.demolab.com/?id=tdzsOODJiX8&title=%E6%82%AA%E9%AD%94%E3%81%AE%E5%AD%90&lang=en&timestamp=0&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=220&border_radius=5)](https://music.youtube.com/watch?v=tdzsOODJiX8&si=Y6rWOcjQH5l9enKi)
+[![JANE DOE](https://ytcards.demolab.com/?id=zuO2fClon98&title=JANE+DOE&lang=en&timestamp=0&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=220&border_radius=5)](https://music.youtube.com/watch?v=zuO2fClon98&si=LPPAyFnRZ16Rcu2Q)
 <!-- END YOUTUBE-CARDS -->
+
 
 
 
