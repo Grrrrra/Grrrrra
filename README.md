@@ -73,10 +73,10 @@ I graduated from Dong-Eui University, and I'm set to join a smart factory compan
   </a>
 </div>
 
-### Music 🎧  
+### Music 🎧
 <!-- BEGIN YOUTUBE-CARDS -->
-
 <!-- END YOUTUBE-CARDS -->
+
 
 
 
