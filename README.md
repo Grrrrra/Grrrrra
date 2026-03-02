@@ -1,16 +1,66 @@
-## Hi there 👋
+<!-- Profile README for YOUR_GITHUB_ID -->
 
-<!--
-**Grrrrra/Grrrrra** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# HOLA, GitHub (PAGO)
 
-Here are some ideas to get you started:
+I'm a junior developer who loves backend engineering and databases, and I'm steadily growing.
+I graduated from Dong-Eui University, and I'm set to join a smart factory company soon!
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Links
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](YOUR_YOUTUBE_URL)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](YOUR_INSTAGRAM_URL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_GITHUB_ID)
+[![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)](YOUR_NOTION_URL)
+
+## Tech Stack
+
+![SQLD](https://img.shields.io/badge/SQLD(MySQL%2FOracle)-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![SSH](https://img.shields.io/badge/SSH-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+
+## Favorites
+
+<table align="center">
+  <tr>
+    <td align="center" width="320">
+      <img
+        src="https://github.com/user-attachments/assets/4df6994e-d88e-4ece-9fa2-561b28296abc"
+        alt="Frosh frog character"
+        width="275"
+        height="275"
+      />
+      <br />
+      <b>Frosh(フロッシュ)</b>
+      <br />
+      <sub>「フローもそう思う」</sub>
+      <br />
+      <sub>So cute</sub>
+    </td>
+    <td align="center" width="420">
+      <img
+        src="https://github.com/user-attachments/assets/ba308605-9bd5-4c7d-bf93-575bb995da67"
+        alt="Simon"
+        width="420"
+      />
+      <br />
+      <b>Simon(シモン)</b>
+      <br />
+      <sub>
+        "兄貴は死んだ、もういない。だけど、俺の背中に この胸に 一つになって生き続ける！ 穴を掘るなら天を突く 墓穴を掘っても掘りぬけて 突き抜けたなら俺の勝ち！ 俺を誰だと 思ってる、俺はシモンだ カミナの兄貴じゃない 俺は俺だ！穴掘りシモンだ！"
+      </sub>
+    </td>
+  </tr>
+</table>
+
+## Hobbies
+### Solved.ac
+| Stats | Grass |
+|:--:|:--:|
+| [![Solved.ac stats](https://github-readme-solvedac.hyp3rflow.vercel.app/api/?handle=wjdduswns02&theme=dark)](https://solved.ac/profile/wjdduswns02) | [![Solved.ac grass](http://mazandi.herokuapp.com/api?handle=wjdduswns02&theme=dark)](https://solved.ac/profile/wjdduswns02) |
+
+
+
+- 🎧 Listening to music (collecting focus playlists)
+- 📚 Writing dev notes (troubleshooting & learnings) on blog/Notion
